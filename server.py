@@ -37,7 +37,7 @@ def AtmLight(im,dark):
     loc=np.where(gray_im==max(gray_im[indices]))
     x=loc[0][0]
     A=np.array(imvec[x])
-    A=A.reshape(1,3)
+    A=A.reshape(1,3) 
     return A
 
 
